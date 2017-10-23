@@ -1,10 +1,10 @@
 #include <stdio.h>
 int main(void) {
 
-	int userInput = 0;
+	float userInput = 0;
 
-	printf("Enter an integer");
-	scanf("%d", &userInput);
+	printf("Enter a float: ");
+	scanf("%lf", &userInput);
 	
 
 	return 0;
